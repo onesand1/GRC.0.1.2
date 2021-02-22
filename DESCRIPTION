@@ -1,0 +1,31 @@
+Package: GRC
+Type: Package
+Title: Gene regulation and correlation between target and pathway
+Version: 0.1.2
+Author: one sand
+Maintainer: Qingrong Sun <sunqingrong@stu.cpu.edu.cn>
+Description: this package explodes the gene interrelations between RNA-seq dataset and clinical features by expression and pathway/GO dataset. The combination of difference analysis and correlation analysis makes GRC accessible to the majority of users to explore the Interrelation network, differential genes, survival analysis and Gene set correlation. 
+License:  MIT + file License
+Encoding: UTF-8
+LazyData: true
+Depends: R (>= 3.5.0), graphics, stats,utils,ggplot2
+Imports:
+	pheatmap,
+	CAMERA,
+	scatterplot3d,
+	GSEABase,
+	igraph,
+	plotrix,
+	BiocManager,
+	GSVA,
+	survminer,
+	survivalROC,
+	corrplot,
+	Rgraphviz,
+	survival,
+	methods
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 7.0.2.9000
